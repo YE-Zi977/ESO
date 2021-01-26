@@ -1,0 +1,1 @@
+<view class="{{['eso-img',theme]}}"><block wx:if="{{src}}"><image class="auto-img" src="{{src}}" mode="{{mode}}"></image></block></view>

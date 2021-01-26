@@ -1,0 +1,42 @@
+.search-bar {
+  padding: 0 12px;
+}
+.search-bar .in-box {
+  height: 44px;
+}
+.search-bar .in-box .input-btn {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  height: 30px;
+  padding: 0 10px;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  font-size: 12px;
+}
+.search-bar .in-box .input-btn .icon {
+  margin-right: 4px;
+  padding-top: 4px;
+  font-size: 15px;
+}
+.search-bar.default {
+  background-color: #ffffff;
+}
+.search-bar.default.border {
+  border-bottom: 1px solid #dddddd;
+}
+.search-bar.default .in-box .input-btn {
+  color: #999999;
+  background-color: #f5f5f5;
+}
+.search-bar.dark {
+  background-color: #3f3f3f;
+}
+.search-bar.dark.border {
+  border-bottom: 1px solid #2f2f2f;
+}
+.search-bar.dark .in-box .input-btn {
+  color: #acacac;
+  background-color: #353535;
+}
+

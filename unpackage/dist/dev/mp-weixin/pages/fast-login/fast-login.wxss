@@ -1,0 +1,190 @@
+.fast-login {
+  position: relative;
+}
+.fast-login .status_bar {
+  height: 25px;
+  width: 100%;
+}
+.fast-login .back-arrow {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 12px;
+}
+.fast-login .back-arrow .iconfont {
+  font-size: 20px;
+}
+.fast-login .head-logo {
+  width: 100%;
+  margin-top: 75px;
+}
+.fast-login .head-logo .logo {
+  width: 87px;
+  height: 50px;
+  padding-right: 7px;
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+}
+.fast-login .head-logo .logo .text {
+  height: 22px;
+  width: 42px;
+  overflow: hidden;
+}
+.fast-login .head-logo .right-box {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  margin-left: 15px;
+  font-size: 14px;
+  line-height: 22px;
+}
+.fast-login .head-logo .right-box .tag {
+  margin-left: 3px;
+  padding: 0 4px;
+  -webkit-border-radius: 25px;
+          border-radius: 25px;
+  font-size: 12px;
+}
+.fast-login .login-box {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-30%);
+          transform: translateY(-30%);
+  left: 0;
+  width: 100%;
+  padding: 15px 12px;
+}
+.fast-login .login-box .phone {
+  font-size: 22px;
+  font-weight: 500;
+}
+.fast-login .login-box .toggle {
+  padding: 15px 0 55px;
+  font-size: 14px;
+}
+.fast-login .login-box .login-btn {
+  width: 290px;
+  height: 40px;
+  -webkit-border-radius: 40px;
+          border-radius: 40px;
+  font-size: 15px;
+  opacity: 0.55;
+}
+.fast-login .login-box .login-btn.active {
+  opacity: 1;
+}
+.fast-login .login-box .tip {
+  padding-top: 25px;
+  font-size: 12px;
+}
+.fast-login .agreement {
+  position: absolute;
+  left: 0;
+  bottom: 25px;
+  width: 100%;
+  font-size: 12px;
+}
+.fast-login .agreement .text {
+  width: 310px;
+  line-height: 20px;
+}
+.fast-login .agreement .icon {
+  width: 18px;
+  height: 18px;
+  margin-top: 2px;
+  margin-right: 6px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  font-size: 12px;
+  color: #ffffff;
+}
+.fast-login .agreement .icon.check {
+  border-color: #4076ff;
+  background-color: #4076ff;
+}
+.fast-login.default {
+  background-color: #ffffff;
+}
+.fast-login.default .status_bar {
+  background-color: #ffffff;
+}
+.fast-login.default .back-arrow {
+  color: #999999;
+}
+.fast-login.default .head-logo .logo {
+  border: 1px solid #dddddd;
+}
+.fast-login.default .head-logo .right-box {
+  color: #999999;
+}
+.fast-login.default .head-logo .right-box .tag {
+  border: 1px solid #dddddd;
+}
+.fast-login.default .login-box .phone {
+  color: #333333;
+}
+.fast-login.default .login-box .toggle {
+  color: #fb655d;
+}
+.fast-login.default .login-box .login-btn {
+  color: #ffffff;
+  background-color: #fb655d;
+}
+.fast-login.default .login-box .tip {
+  color: #999999;
+}
+.fast-login.default .agreement {
+  color: #333333;
+}
+.fast-login.default .agreement .text .bright {
+  color: #999999;
+}
+.fast-login.default .agreement .icon {
+  border: 1px solid #dddddd;
+}
+.fast-login.dark {
+  background-color: #3f3f3f;
+}
+.fast-login.dark .status_bar {
+  background-color: #3f3f3f;
+}
+.fast-login.dark .back-arrow {
+  color: #acacac;
+}
+.fast-login.dark .head-logo .logo {
+  border: 1px solid #2f2f2f;
+}
+.fast-login.dark .head-logo .right-box {
+  color: #acacac;
+}
+.fast-login.dark .head-logo .right-box .tag {
+  border: 1px solid #2f2f2f;
+}
+.fast-login.dark .login-box .phone {
+  color: #dddddd;
+}
+.fast-login.dark .login-box .toggle {
+  color: #fb655d;
+}
+.fast-login.dark .login-box .login-btn {
+  color: #3f3f3f;
+  background-color: #fb655d;
+}
+.fast-login.dark .login-box .tip {
+  color: #acacac;
+}
+.fast-login.dark .agreement {
+  color: #dddddd;
+}
+.fast-login.dark .agreement .text .bright {
+  color: #acacac;
+}
+.fast-login.dark .agreement .icon {
+  border: 1px solid #2f2f2f;
+}
+

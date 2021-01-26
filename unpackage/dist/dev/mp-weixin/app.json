@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/fast-login/fast-login",
+    "pages/user-login/user-login",
+    "pages/error/error",
+    "pages/mine/create-article/create-article",
+    "pages/mine/my-article/my-article",
+    "pages/active/sign-in/sign-in"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTitleText": "易搜",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "eso-img": "/components/eso-img/eso-img",
+    "nav-bar": "/components/eso-navBar/eso-navBar",
+    "scroll-box": "/components/eso-scrollBox/eso-scrollBox"
+  }
+}

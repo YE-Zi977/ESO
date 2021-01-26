@@ -1,0 +1,139 @@
+.watch.default .g-icon-box {
+  color: #999999;
+}
+.watch.default .g-icon-box.unread {
+  position: relative;
+}
+.watch.default .g-icon-box.unread::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 2px;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  width: 8px;
+  height: 8px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  border: 1px solid #ffffff;
+  background-color: #fb655d;
+}
+.watch.default .g-icon-box .icon {
+  font-size: 18px;
+}
+.watch.default .tab-box {
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  height: 45px;
+  font-size: 14px;
+  border-bottom: 1px solid #dddddd;
+  color: #999999;
+  background-color: #ffffff;
+}
+.watch.default .tab-box .item.active {
+  font-size: 15px;
+  color: #333333;
+}
+.watch.default .tab-box .item.p-8 {
+  padding: 0 8px;
+}
+.watch.default .tab-box .line {
+  position: absolute;
+  bottom: 0;
+  height: 3px;
+  width: 15px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #fb655d;
+}
+.watch.default .swiper {
+  width: 100%;
+  height: calc(100% - 45px);
+}
+.watch.default .swiper .tab-item.view1 {
+  background-color: blue;
+}
+.watch.default .swiper .tab-item.view2 {
+  background-color: red;
+}
+.watch.default .swiper .tab-item.view3 {
+  background-color: yellow;
+}
+.watch.default .swiper .tab-item.view4 {
+  background-color: black;
+}
+.watch.default .swiper .tab-item.view5 {
+  background-color: green;
+}
+.watch.dark .g-icon-box {
+  color: #acacac;
+}
+.watch.dark .g-icon-box.unread {
+  position: relative;
+}
+.watch.dark .g-icon-box.unread::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 2px;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  width: 8px;
+  height: 8px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  border: 1px solid #3f3f3f;
+  background-color: #fb655d;
+}
+.watch.dark .g-icon-box .icon {
+  font-size: 18px;
+}
+.watch.dark .tab-box {
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  height: 45px;
+  font-size: 14px;
+  border-bottom: 1px solid #2f2f2f;
+  color: #acacac;
+  background-color: #3f3f3f;
+}
+.watch.dark .tab-box .item.active {
+  font-size: 15px;
+  color: #dddddd;
+}
+.watch.dark .tab-box .item.p-8 {
+  padding: 0 8px;
+}
+.watch.dark .tab-box .line {
+  position: absolute;
+  bottom: 0;
+  height: 3px;
+  width: 15px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #fb655d;
+}
+.watch.dark .swiper {
+  width: 100%;
+  height: calc(100% - 45px);
+}
+.watch.dark .swiper .tab-item.view1 {
+  background-color: blue;
+}
+.watch.dark .swiper .tab-item.view2 {
+  background-color: red;
+}
+.watch.dark .swiper .tab-item.view3 {
+  background-color: yellow;
+}
+.watch.dark .swiper .tab-item.view4 {
+  background-color: black;
+}
+.watch.dark .swiper .tab-item.view5 {
+  background-color: green;
+}
+

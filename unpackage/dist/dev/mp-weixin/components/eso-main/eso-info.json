@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "eso-img": "/components/eso-img/eso-img"
+  },
+  "component": true
+}

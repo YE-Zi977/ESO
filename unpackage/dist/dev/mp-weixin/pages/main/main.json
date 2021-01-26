@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "main-home": "/components/eso-main/eso-home",
+    "main-watch": "/components/eso-main/eso-watch",
+    "main-more": "/components/eso-main/eso-more",
+    "main-info": "/components/eso-main/eso-info",
+    "main-mine": "/components/eso-main/eso-mine",
+    "menu-bar": "/components/eso-menuBar/eso-menuBar",
+    "popup": "/components/eso-popup/eso-popup"
+  }
+}

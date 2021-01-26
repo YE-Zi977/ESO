@@ -1,0 +1,70 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+            "path" : "pages/main/main",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "首页",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+			"path" : "pages/fast-login/fast-login",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "一键登录",
+				"enablePullDownRefresh": false
+			}
+			
+		}
+        ,{
+			"path" : "pages/user-login/user-login",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "用户登录",
+				"enablePullDownRefresh": false
+			}
+			
+		},{
+            "path" : "pages/error/error",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "出错啦~",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/create-article/create-article",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "创建新文章",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/my-article/my-article",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的文章",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/active/sign-in/sign-in",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "易搜签到",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTitleText": "易搜",
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black"
+	}
+}

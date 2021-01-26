@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "eso-img": "/components/eso-img/eso-img",
+    "search-bar": "/components/eso-searchBar/eso-searchBar"
+  }
+}

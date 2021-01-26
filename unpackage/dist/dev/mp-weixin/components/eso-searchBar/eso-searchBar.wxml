@@ -1,0 +1,1 @@
+<view class="{{['search-bar',theme,isBorder?'border':'']}}"><view class="in-box flex-c" style="{{'width:'+('calc(100% - '+($root.g0.width+5)+'px)')+';'}}"><slot name="left"></slot><view class="input-btn flex-c pointer"><text class="icon iconfont"></text><text>搜索感兴趣的内容</text></view><slot name="right"></slot></view></view>

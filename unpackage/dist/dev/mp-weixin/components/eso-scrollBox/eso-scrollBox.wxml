@@ -1,0 +1,1 @@
+<scroll-view class="{{['scroll-box',theme]}}" style="{{$root.s0}}" scroll-y="{{true}}" data-event-opts="{{[['scroll',[['handleScroll',['$event']]]]]}}" bindscroll="__e"><slot></slot><block wx:if="{{isFoot}}"><view class="foot"></view></block></scroll-view>

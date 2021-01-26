@@ -1,0 +1,274 @@
+.user-login {
+  position: relative;
+}
+.user-login .status_bar {
+  height: 25px;
+  width: 100%;
+}
+.user-login .g-close {
+  width: 100%;
+  padding: 10px 12px;
+}
+.user-login .g-close .iconfont {
+  width: 35px;
+  height: 35px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.user-login .login-box {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  padding: 40px 12px 0;
+}
+.user-login .login-box .title {
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+.user-login .login-box .input-group {
+  position: relative;
+  padding: 30px 0 35px;
+}
+.user-login .login-box .input-group .flex-y-c {
+  height: 45px;
+  width: 290px;
+}
+.user-login .login-box .input-group .flex-y-c.error {
+  border-bottom: 1px solid #ff0000;
+}
+.user-login .login-box .input-group .flex-y-c.msg1::after {
+  content: '用户名不正确!';
+  position: absolute;
+  bottom: -22px;
+  right: 0;
+  font-size: 12px;
+  color: #ff0000;
+}
+.user-login .login-box .input-group .flex-y-c.msg2::after {
+  content: '密码格式不正确!';
+  position: absolute;
+  bottom: -22px;
+  right: 0;
+  font-size: 12px;
+  color: #ff0000;
+}
+.user-login .login-box .input-group .flex-y-c.msg1-1::after {
+  content: '手机号不正确!';
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 12px;
+  color: #ff0000;
+}
+.user-login .login-box .input-group .flex-y-c.msg2-2::after {
+  content: '验证码格式不正确!';
+  position: absolute;
+  bottom: -22px;
+  right: 0;
+  font-size: 12px;
+  color: #ff0000;
+}
+.user-login .login-box .input-group .flex-y-c.success {
+  border-bottom: 1px solid #3a74ff;
+}
+.user-login .login-box .input-group .flex-y-c .input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 14px;
+}
+.user-login .login-box .input-group .flex-y-c .get-code {
+  height: 100%;
+  width: 80px;
+  padding: 0 10px;
+  font-size: 12px;
+}
+.user-login .login-box .login-btn {
+  width: 290px;
+  height: 40px;
+  margin-bottom: 30px;
+  -webkit-border-radius: 40px;
+          border-radius: 40px;
+  font-size: 15px;
+  opacity: 0.55;
+}
+.user-login .login-box .login-btn.active {
+  opacity: 1;
+}
+.user-login .login-box .other {
+  font-size: 14px;
+  color: #4e6b9d;
+}
+.user-login .login-box .other .line {
+  height: 18px;
+  width: 1px;
+  margin: 0 12px;
+}
+.user-login .other-login {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+  width: 100%;
+  padding: 0 12px;
+}
+.user-login .other-login .title {
+  font-size: 12px;
+}
+.user-login .other-login .list {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 25px 0 45px;
+}
+.user-login .other-login .list .item {
+  margin-right: 25px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.user-login .other-login .list .item:last-child {
+  margin-right: 0;
+}
+.user-login .other-login .list .item.wx > .iconfont {
+  margin-right: 5px;
+  font-size: 28px;
+  color: #9fdf5e;
+}
+.user-login .other-login .list .item.qq > .iconfont {
+  margin-right: 5px;
+  font-size: 28px;
+  color: #67c6ff;
+}
+.user-login .other-login .list .item.wb > .iconfont {
+  margin-right: 5px;
+  font-size: 30px;
+  color: #f58671;
+}
+.user-login .other-login .tip {
+  width: 290px;
+  font-size: 12px;
+  text-align: center;
+}
+.user-login .other-login .tip .pointer {
+  padding: 0 2px;
+  color: #109d8f;
+  text-decoration: underline;
+}
+.user-login.default {
+  background-color: #ffffff;
+}
+.user-login.default .status_bar {
+  background-color: #ffffff;
+}
+.user-login.default .g-close .iconfont {
+  color: #999999;
+}
+.user-login.default .login-box .title {
+  color: #333333;
+}
+.user-login.default .login-box .input-group .flex-y-c .input {
+  color: #333333;
+}
+.user-login.default .login-box .input-group .flex-y-c .input-placeholder {
+  color: #999999;
+}
+.user-login.default .login-box .input-group .flex-y-c .get-code {
+  color: #999999;
+}
+.user-login.default .login-box .input-group .flex-y-c .get-code.active {
+  color: #fb655d;
+}
+.user-login.default .login-box .login-btn {
+  color: #ffffff;
+  background-color: #fb655d;
+}
+.user-login.default .login-box .other .line {
+  background-color: #999999;
+}
+.user-login.default .other-login .title {
+  color: #999999;
+}
+.user-login.default .other-login .title::before {
+  content: '';
+  width: 32px;
+  height: 1px;
+  margin-right: 10px;
+  background-color: #999999;
+  opacity: 0.65;
+}
+.user-login.default .other-login .title::after {
+  content: '';
+  width: 32px;
+  height: 1px;
+  margin-left: 10px;
+  background-color: #999999;
+  opacity: 0.65;
+}
+.user-login.default .other-login .list .item {
+  color: #333333;
+}
+.user-login.default .other-login .tip {
+  color: #999999;
+}
+.user-login.dark {
+  background-color: #3f3f3f;
+}
+.user-login.dark .status_bar {
+  background-color: #3f3f3f;
+}
+.user-login.dark .g-close .iconfont {
+  color: #acacac;
+}
+.user-login.dark .login-box .title {
+  color: #dddddd;
+}
+.user-login.dark .login-box .input-group .flex-y-c .input {
+  color: #dddddd;
+}
+.user-login.dark .login-box .input-group .flex-y-c .input-placeholder {
+  color: #acacac;
+}
+.user-login.dark .login-box .input-group .flex-y-c .get-code {
+  color: #acacac;
+}
+.user-login.dark .login-box .input-group .flex-y-c .get-code.active {
+  color: #fb655d;
+}
+.user-login.dark .login-box .login-btn {
+  color: #3f3f3f;
+  background-color: #fb655d;
+}
+.user-login.dark .login-box .other .line {
+  background-color: #acacac;
+}
+.user-login.dark .other-login .title {
+  color: #acacac;
+}
+.user-login.dark .other-login .title::before {
+  content: '';
+  width: 32px;
+  height: 1px;
+  margin-right: 10px;
+  background-color: #acacac;
+  opacity: 0.65;
+}
+.user-login.dark .other-login .title::after {
+  content: '';
+  width: 32px;
+  height: 1px;
+  margin-left: 10px;
+  background-color: #acacac;
+  opacity: 0.65;
+}
+.user-login.dark .other-login .list .item {
+  color: #dddddd;
+}
+.user-login.dark .other-login .tip {
+  color: #acacac;
+}
+

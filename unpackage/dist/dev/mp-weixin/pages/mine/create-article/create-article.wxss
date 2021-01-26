@@ -1,0 +1,109 @@
+.create-article.default .g-left-box {
+  margin-right: 15px;
+  color: #999999;
+}
+.create-article.default .g-right-box {
+  font-size: 15px;
+  color: #ef9272;
+}
+.create-article.default .cont {
+  height: calc(100% - 45px);
+  background-color: #ffffff;
+  overflow-y: auto;
+}
+.create-article.default .cont .title-input {
+  height: 55px;
+  padding: 0 12px;
+}
+.create-article.default .cont .title-input .flex-y-c {
+  height: 100%;
+  width: 100%;
+  border-bottom: 2px dashed #dddddd;
+}
+.create-article.default .cont .title-input .flex-y-c .input-placeholder {
+  color: #999999;
+}
+.create-article.default .cont .title-input .flex-y-c .input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: #333333;
+}
+.create-article.default .cont .content-box {
+  height: calc(100% - 55px);
+  overflow-y: auto;
+  padding: 15px 12px;
+}
+.create-article.default .cont .content-box .textarea-placeholder {
+  color: #999999;
+}
+.create-article.default .tool-bar {
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  height: 45px;
+  background-color: #f5f5f5;
+}
+.create-article.default .tool-bar .icon {
+  font-size: 18px;
+  color: #999999;
+}
+.create-article.default .tool-bar.active .icon {
+  color: #ef9272;
+}
+.create-article.dark .g-left-box {
+  margin-right: 15px;
+  color: #acacac;
+}
+.create-article.dark .g-right-box {
+  font-size: 15px;
+  color: #ef9272;
+}
+.create-article.dark .cont {
+  height: calc(100% - 45px);
+  background-color: #3f3f3f;
+  overflow-y: auto;
+}
+.create-article.dark .cont .title-input {
+  height: 55px;
+  padding: 0 12px;
+}
+.create-article.dark .cont .title-input .flex-y-c {
+  height: 100%;
+  width: 100%;
+  border-bottom: 2px dashed #2f2f2f;
+}
+.create-article.dark .cont .title-input .flex-y-c .input-placeholder {
+  color: #acacac;
+}
+.create-article.dark .cont .title-input .flex-y-c .input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: #dddddd;
+}
+.create-article.dark .cont .content-box {
+  height: calc(100% - 55px);
+  overflow-y: auto;
+  padding: 15px 12px;
+}
+.create-article.dark .cont .content-box .textarea-placeholder {
+  color: #acacac;
+}
+.create-article.dark .tool-bar {
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  height: 45px;
+  background-color: #353535;
+}
+.create-article.dark .tool-bar .icon {
+  font-size: 18px;
+  color: #acacac;
+}
+.create-article.dark .tool-bar.active .icon {
+  color: #ef9272;
+}
+

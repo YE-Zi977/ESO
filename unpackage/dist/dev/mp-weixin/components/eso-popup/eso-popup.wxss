@@ -1,0 +1,64 @@
+.popup {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+.popup .clack-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.85);
+  opacity: 0;
+}
+.popup .clack-box.bg-1 {
+  background-color: rgba(0, 0, 0, 0);
+}
+.popup .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.popup .center .in-box {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+.popup .top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+.popup .bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+.popup .left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+.popup .right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+

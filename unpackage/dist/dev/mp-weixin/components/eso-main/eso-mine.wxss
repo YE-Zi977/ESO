@@ -1,0 +1,459 @@
+.mine .g-left-box .iconfont,
+.mine .g-right-box .iconfont {
+  font-size: 20px;
+}
+.mine .g-left-box {
+  margin-right: 10px;
+}
+.mine .g-right-box {
+  margin-left: 10px;
+}
+.mine .bg-box {
+  margin-left: 50%;
+  -webkit-transform: translate(-50%, calc(-48% + 25px));
+          transform: translate(-50%, calc(-48% + 25px));
+  width: 133.3333%;
+  height: 85.3333vw;
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+}
+.mine .g-nav-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+.mine .cont {
+  position: relative;
+  z-index: 1;
+  margin-top: -85.3333vw;
+}
+.mine .cont .user-info {
+  margin: 25px 15px 15px;
+  padding: 20px 12px;
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+  -webkit-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+}
+.mine .cont .user-info .top-box {
+  padding-bottom: 12px;
+}
+.mine .cont .user-info .top-box .left-box {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.mine .cont .user-info .top-box .left-box .avatar {
+  height: 60px;
+  width: 60px;
+  margin-left: 5px;
+  margin-right: 10px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+}
+.mine .cont .user-info .top-box .left-box .name {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  font-size: 16px;
+}
+.mine .cont .user-info .top-box .left-box .name .desc {
+  padding-top: 10px;
+  font-size: 12px;
+}
+.mine .cont .user-info .top-box .right-box {
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+}
+.mine .cont .user-info .bottom-box {
+  margin-top: 15px;
+}
+.mine .cont .user-info .bottom-box .item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.mine .cont .user-info .bottom-box .item .icon {
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+.mine .cont .user-info .bottom-box .item .title {
+  padding: 10px 0 3px;
+  font-size: 14px;
+}
+.mine .cont .user-info .bottom-box .item .desc {
+  -webkit-transform: scale(0.83333333);
+          transform: scale(0.83333333);
+  font-size: 12px;
+}
+.mine .cont .assets-box {
+  margin: 0 15px 15px;
+  padding: 0 12px 20px;
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+  -webkit-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+}
+.mine .cont .assets-box .top-box {
+  height: 40px;
+}
+.mine .cont .assets-box .top-box .left-box {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 14px;
+}
+.mine .cont .assets-box .top-box .right-box {
+  margin-left: 10px;
+  font-size: 12px;
+}
+.mine .cont .assets-box .top-box .right-box .icon {
+  margin-top: 2px;
+  font-size: 18px;
+}
+.mine .cont .assets-box .bottom-box {
+  margin-top: 15px;
+}
+.mine .cont .assets-box .bottom-box .item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.mine .cont .assets-box .bottom-box .item .icon {
+  font-size: 26px;
+}
+.mine .cont .assets-box .bottom-box .item .title {
+  padding: 10px 0 3px;
+  font-size: 12px;
+}
+.mine .cont .assets-box .bottom-box .item .desc {
+  -webkit-transform: scale(0.83333333);
+          transform: scale(0.83333333);
+  font-size: 12px;
+}
+.mine .cont .swiper {
+  height: 65px;
+  margin: 0 15px 5px;
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+  overflow: hidden;
+}
+.mine .cont .swiper .item {
+  height: 65px;
+  width: 100%;
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+  overflow: hidden;
+}
+.mine .cont .group {
+  padding-left: 15px;
+}
+.mine .cont .group.no-line .item {
+  border-bottom: none !important;
+}
+.mine .cont .group .item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 40px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+.mine .cont .group .item .left-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 14px;
+}
+.mine .cont .group .item .left-box .tag {
+  height: 24px;
+  padding: 0 6px;
+  -webkit-border-radius: 24px;
+          border-radius: 24px;
+  -webkit-transform: scale(0.83333333);
+          transform: scale(0.83333333);
+  font-size: 12px;
+  line-height: 24px;
+}
+.mine .cont .group .item .right-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-left: 10px;
+}
+.mine .cont .group .item .right-box .overflow {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 12px;
+}
+.mine .cont .group .item .right-box .icon {
+  margin-top: 2px;
+  margin-left: 5px;
+  font-size: 18px;
+}
+.mine .cont .group .item .right-box .check-btn {
+  position: relative;
+  width: 36px;
+  height: 15px;
+  -webkit-border-radius: 15px;
+          border-radius: 15px;
+}
+.mine .cont .group .item .right-box .check-btn .icon1 {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 22px;
+  height: 22px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  -webkit-box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.15);
+  -webkit-transition: left 0.2s linear;
+  transition: left 0.2s linear;
+  z-index: 1;
+}
+.mine .cont .group .item .right-box .check-btn .icon2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 15px;
+  -webkit-border-radius: 15px;
+          border-radius: 15px;
+  -webkit-transition: width 0.2s linear;
+  transition: width 0.2s linear;
+}
+.mine .cont .group .item .right-box .check-btn.checked .icon1 {
+  left: 100%;
+}
+.mine .cont .group .item .right-box .check-btn.checked .icon2 {
+  width: 100%;
+}
+.mine .cont .foot-blank {
+  height: 70px;
+}
+.mine.default {
+  background-color: #ffffff;
+}
+.mine.default .g-left-box,
+.mine.default .g-right-box {
+  color: #333333;
+}
+.mine.default .bg-box {
+  background-image: -webkit-gradient(linear, left top, right top, from(#ef9272), to(#fb655d));
+  background-image: -webkit-linear-gradient(left, #ef9272, #fb655d);
+  background-image: linear-gradient(to right, #ef9272, #fb655d);
+}
+.mine.default .cont .g-left-box,
+.mine.default .cont .g-right-box {
+  color: #ffffff;
+}
+.mine.default .cont .user-info {
+  background-color: #ffffff;
+}
+.mine.default .cont .user-info .top-box {
+  border-bottom: 1px solid #dddddd;
+}
+.mine.default .cont .user-info .top-box .left-box .avatar {
+  background-color: #f5f5f5;
+}
+.mine.default .cont .user-info .top-box .left-box .name {
+  color: #333333;
+}
+.mine.default .cont .user-info .top-box .left-box .name .desc {
+  color: #999999;
+}
+.mine.default .cont .user-info .top-box .right-box {
+  background-color: #fb655d;
+}
+.mine.default .cont .user-info .bottom-box .item .title {
+  color: #333333;
+}
+.mine.default .cont .user-info .bottom-box .item .desc {
+  color: #999999;
+}
+.mine.default .cont .assets-box {
+  background-color: #ffffff;
+}
+.mine.default .cont .assets-box .top-box {
+  border-bottom: 1px solid #dddddd;
+}
+.mine.default .cont .assets-box .top-box .left-box {
+  color: #333333;
+}
+.mine.default .cont .assets-box .top-box .right-box {
+  color: #999999;
+}
+.mine.default .cont .assets-box .bottom-box .item .icon {
+  color: #333333;
+}
+.mine.default .cont .assets-box .bottom-box .item .title {
+  color: #333333;
+}
+.mine.default .cont .assets-box .bottom-box .item .desc {
+  color: #999999;
+}
+.mine.default .cont .swiper {
+  background-color: #ffffff;
+}
+.mine.default .cont .group .item:last-child {
+  border-bottom: 1px solid #dddddd;
+}
+.mine.default .cont .group .item .left-box {
+  color: #333333;
+}
+.mine.default .cont .group .item .left-box .tag {
+  color: #fb655d;
+  background-color: rgba(234, 116, 86, 0.15);
+}
+.mine.default .cont .group .item .right-box .overflow {
+  color: #999999;
+}
+.mine.default .cont .group .item .right-box .icon {
+  color: #999999;
+}
+.mine.default .cont .group .item .right-box .check-btn {
+  background-color: #999999;
+}
+.mine.default .cont .group .item .right-box .check-btn .icon1 {
+  background-color: #dddddd;
+}
+.mine.default .cont .group .item .right-box .check-btn .icon2 {
+  background-color: rgba(234, 116, 86, 0.35);
+}
+.mine.default .cont .group .item .right-box .check-btn.checked .icon1 {
+  background-color: #ef9272;
+}
+.mine.default .cont .foot-blank {
+  background-color: #f5f5f5;
+}
+.mine.dark {
+  background-color: #3f3f3f;
+}
+.mine.dark .g-left-box,
+.mine.dark .g-right-box {
+  color: #dddddd;
+}
+.mine.dark .bg-box {
+  background-image: -webkit-gradient(linear, left top, right top, from(#ef9272), to(#fb655d));
+  background-image: -webkit-linear-gradient(left, #ef9272, #fb655d);
+  background-image: linear-gradient(to right, #ef9272, #fb655d);
+}
+.mine.dark .cont .g-left-box,
+.mine.dark .cont .g-right-box {
+  color: #3f3f3f;
+}
+.mine.dark .cont .user-info {
+  background-color: #3f3f3f;
+}
+.mine.dark .cont .user-info .top-box {
+  border-bottom: 1px solid #2f2f2f;
+}
+.mine.dark .cont .user-info .top-box .left-box .avatar {
+  background-color: #353535;
+}
+.mine.dark .cont .user-info .top-box .left-box .name {
+  color: #dddddd;
+}
+.mine.dark .cont .user-info .top-box .left-box .name .desc {
+  color: #acacac;
+}
+.mine.dark .cont .user-info .top-box .right-box {
+  background-color: #fb655d;
+}
+.mine.dark .cont .user-info .bottom-box .item .title {
+  color: #dddddd;
+}
+.mine.dark .cont .user-info .bottom-box .item .desc {
+  color: #acacac;
+}
+.mine.dark .cont .assets-box {
+  background-color: #3f3f3f;
+}
+.mine.dark .cont .assets-box .top-box {
+  border-bottom: 1px solid #2f2f2f;
+}
+.mine.dark .cont .assets-box .top-box .left-box {
+  color: #dddddd;
+}
+.mine.dark .cont .assets-box .top-box .right-box {
+  color: #acacac;
+}
+.mine.dark .cont .assets-box .bottom-box .item .icon {
+  color: #dddddd;
+}
+.mine.dark .cont .assets-box .bottom-box .item .title {
+  color: #dddddd;
+}
+.mine.dark .cont .assets-box .bottom-box .item .desc {
+  color: #acacac;
+}
+.mine.dark .cont .swiper {
+  background-color: #3f3f3f;
+}
+.mine.dark .cont .group .item:last-child {
+  border-bottom: 1px solid #2f2f2f;
+}
+.mine.dark .cont .group .item .left-box {
+  color: #dddddd;
+}
+.mine.dark .cont .group .item .left-box .tag {
+  color: #fb655d;
+  background-color: rgba(234, 116, 86, 0.15);
+}
+.mine.dark .cont .group .item .right-box .overflow {
+  color: #acacac;
+}
+.mine.dark .cont .group .item .right-box .icon {
+  color: #acacac;
+}
+.mine.dark .cont .group .item .right-box .check-btn {
+  background-color: #acacac;
+}
+.mine.dark .cont .group .item .right-box .check-btn .icon1 {
+  background-color: #2f2f2f;
+}
+.mine.dark .cont .group .item .right-box .check-btn .icon2 {
+  background-color: rgba(234, 116, 86, 0.35);
+}
+.mine.dark .cont .group .item .right-box .check-btn.checked .icon1 {
+  background-color: #ef9272;
+}
+.mine.dark .cont .foot-blank {
+  background-color: #353535;
+}
+

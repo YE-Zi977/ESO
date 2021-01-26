@@ -1,0 +1,9 @@
+.eso-img.default {
+  width: 100%;
+  height: 100%;
+}
+.eso-img.dark {
+  width: 100%;
+  height: 100%;
+}
+

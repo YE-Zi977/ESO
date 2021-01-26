@@ -1,0 +1,129 @@
+.small .uni-swiper-dot {
+  width: 6px !important;
+  height: 6px !important;
+}
+.small .uni-swiper-dots-horizontal {
+  bottom: 5px !important;
+}
+/*每个页面公共css */
+view,
+text {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.relative {
+  position: relative;
+}
+.pointer {
+  -webkit-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+.p-15 {
+  padding: 15px;
+}
+.p-12 {
+  padding: 12px;
+}
+.p-10 {
+  padding: 10px;
+}
+.auto-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.flex-c {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.flex-x-c {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.flex-y-c {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container1 {
+  height: 100vh;
+  overflow-y: auto;
+}
+.container1.h-1 {
+  height: calc(100vh - 25px);
+}
+.container2 {
+  height: calc(100vh - 45px - 25px);
+  overflow-y: auto;
+}
+.container2.h-1 {
+  height: calc(100vh - 44px - 25px);
+}
+.container3 {
+  height: calc(100vh - 50px - 25px);
+  overflow-y: auto;
+}
+.container4 {
+  height: calc(100vh - 95px - 25px);
+  overflow-y: auto;
+}
+.container4.h-1 {
+  height: calc(100vh - 94px - 25px);
+}
+.no-data-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 100%;
+  width: 100%;
+}
+/* 文本超出省略号 */
+.overflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}
+/*两行 */
+.two-line {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  word-break: break-all;
+}
+/*三行 */
+.three-line {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  word-break: break-all;
+}
+
